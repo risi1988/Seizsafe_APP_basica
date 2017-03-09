@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_subheader"
+        >
+        <menu>
+
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_video_directo" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/vídeoendirecto"
+            />
+        <item android:id="@+id/nav_buscar_seizsafe" android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/Buscar"
+
+            />
+        <item android:id="@+id/nav_borrar_Seizsafe" android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/Borrar_Seizsafe"
+            />
+        <item android:id="@+id/nav_idioma" android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/Idiomas"
+            />
+        <item android:id="@+id/nav_manual" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/Manual"
+            />
+
+    </group>
+
+</menu><!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/menu/activity_menu_drawer.xml -->

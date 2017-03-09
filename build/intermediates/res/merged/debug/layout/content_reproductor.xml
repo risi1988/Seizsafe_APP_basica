@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/lineRepro"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2in"
+        android:id="@+id/linearRepro1">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        android:layout_gravity="center"
+        android:id="@+id/linearRepro2">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/noCrisis"
+            android:id="@+id/btnnoCrisis" />
+
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/layout/content_reproductor.xml -->

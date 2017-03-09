@@ -1,0 +1,159 @@
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/activity_datosnoche2.xml #generated:9
+# view res/layout/activity_reproductor_stream.xml #generated:9
+# view res/layout/app_bar_menu.xml #generated:9
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# view res/layout/activity_datosnoche2.xml #generated:2
+# view res/layout/activity_main.xml #generated:2
+# view res/layout/activity_reproductor_stream.xml #generated:2
+# view res/layout/app_bar_menu.xml #generated:2
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/activity_menu.xml #generated:12
+-keep class android.support.design.widget.NavigationView { <init>(...); }
+
+# view res/layout/layout_snackbar.xml #generated:18
+# view sw600dp-v13\res/layout-sw600dp-v13/layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/activity_menu.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:130
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.internal.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/activity_datosnoche2.xml #generated:12
+# view res/layout/app_bar_menu.xml #generated:14
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.example.root.Seizsafe.Buscar_Seizsafe_Wifi { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.example.root.Seizsafe.Busqueda_wifi { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.example.root.Seizsafe.Estadisticas_prueba { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.example.root.Seizsafe.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.example.root.Seizsafe.Manual { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.root.Seizsafe.Menu { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.example.root.Seizsafe.Menu_Estadisticas { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.example.root.Seizsafe.MiServiceIntent { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.root.Seizsafe.Reproductor_Stream { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.example.root.Seizsafe.ServicioWifi { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.example.root.Seizsafe.listaVi { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.example.root.myapplication.EstadisticaBarras { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.example.root.myapplication.Estadistica_Prueba { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.example.root.myapplication.LineBarra { <init>(...); }
+
+# view res/layout/activity_estadistica_barras.xml #generated:17
+-keep class com.github.mikephil.charting.charts.BarChart { <init>(...); }
+
+# view res/layout/activity_line_barra.xml #generated:17
+-keep class com.github.mikephil.charting.charts.CombinedChart { <init>(...); }
+
+# view res/layout/activity_estadisticas_prueba.xml #generated:27
+-keep class com.github.mikephil.charting.charts.LineChart { <init>(...); }
+
+# onClick res/layout/activity_menu__estadisticas.xml #generated:26
+-keepclassmembers class * { *** Barras(...); }
+
+# onClick res/layout/activity_menu__estadisticas.xml #generated:36
+-keepclassmembers class * { *** LineBarra(...); }
+
+# onClick res/layout/activity_menu__estadisticas.xml #generated:16
+-keepclassmembers class * { *** Lineas(...); }
+
+# onClick res/layout/activity_menu__estadisticas.xml #generated:46
+-keepclassmembers class * { *** PJson(...); }
+
+# onClick res/layout/content_datosnoche2.xml #generated:77
+# onClick res/layout/content_main.xml #generated:83
+-keepclassmembers class * { *** onClick(...); }
+

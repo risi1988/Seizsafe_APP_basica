@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.myapplication" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/epilepsia"
+        android:label="SEIZSAFE"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.root.Seizsafe.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.root.Seizsafe.Menu"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <service
+            android:name="com.example.root.Seizsafe.MiServiceIntent"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.root.Seizsafe.listaVi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.root.Seizsafe.Reproductor_Stream"
+            android:label="@string/title_activity_reproductor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <service
+            android:name="com.example.root.Seizsafe.ServicioWifi"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.example.root.Seizsafe.Buscar_Seizsafe_Wifi" >
+        </activity>
+        <activity android:name=".Estadistica_Prueba" >
+        </activity>
+        <activity android:name="com.example.root.Seizsafe.Estadisticas_prueba" >
+        </activity>
+        <activity android:name="com.example.root.Seizsafe.Menu_Estadisticas" >
+        </activity>
+        <activity android:name=".EstadisticaBarras" >
+        </activity>
+        <activity android:name=".LineBarra" >
+        </activity>
+        <activity
+            android:name="com.example.root.Seizsafe.Busqueda_wifi"
+            android:label="@string/title_activity_busqueda_wifi"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name="com.example.root.Seizsafe.Manual" >
+        </activity>
+    </application>
+
+</manifest>

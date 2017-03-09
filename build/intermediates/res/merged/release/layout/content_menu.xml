@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_azul">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="0.37in"
+        android:layout_marginRight="0.01in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:src="@drawable/anadir"
+            android:layout_gravity="right"
+            android:id="@+id/AnadirSeizsafe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0.8in"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/SEIZ"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:textSize="40sp"
+            android:layout_gravity="left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/SAFE"
+            android:textColor="#337ab7"
+            android:id="@+id/textSafe"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:textSize="40sp"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1.2in"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Estado_alertas"
+            android:id="@+id/textView7" />
+
+        <ListView
+            android:layout_marginTop="0.1in"
+            android:layout_marginLeft="0.2in"
+            android:layout_marginRight="0.2in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listRasp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/layout/content_menu.xml -->

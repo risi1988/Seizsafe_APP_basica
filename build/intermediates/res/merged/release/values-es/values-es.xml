@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/colors.xml -->
+    <eat-comment/>
+    <color name="blanco">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="negro">#000000</color>
+    <color name="rojo">#FE0000</color>
+    <color name="verde">#35682D</color>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <integer name="anim_speed">80</integer>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Activar_Alertas">Activar Alertas de SeizSafe</string>
+    <string name="Ajustes_Automaticos">Ajustes Automaticos</string>
+    <string name="Ajustes_Manuales">Ajustes Manuales</string>
+    <string name="Alertas_Off">Se ha parado el servicio de Alertas.</string>
+    <string name="Alertas_Reiniciar">No esta conectado el sistema de alertas de Seizsafe ¿Reintentar?</string>
+    <string name="Buscando">Buscando:</string>
+    <string name="Buscar">BUSCAR SEIZSAFE</string>
+    <string name="Camara">CAMARA</string>
+    <string name="Camara_Off">No esta conectada la cámara</string>
+    <string name="Cambiar">Cambiar</string>
+    <string name="Cambios_Error">Error en los cambios</string>
+    <string name="Cambios_Ok">Los cambios se han efectuado correctamente</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Clasificacion">Clasificación:</string>
+    <string name="Codigo">Código:</string>
+    <string name="Conectado">CONECTADO</string>
+    <string name="Conectando">CONECTANDO...</string>
+    <string name="Conectar">Conectar</string>
+    <string name="ConectarWifi">Conectar a una red Wi-Fi existente</string>
+    <string name="ConectarWifi2">Conectar a red Wi-Fi</string>
+    <string name="Conexion_erronea">No se tiene conexion Seizsafe</string>
+    <string name="Configuracion_wifi_existente">Configuración para conectar a una red Wi-Fi existente</string>
+    <string name="Configuracion_wifi_propia">Configuración para crear una red Wi-Fi</string>
+    <string name="Configurar_grabacion">CONFIGURAR GRABACION</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="Control_automatico">Control Automatico</string>
+    <string name="Control_manual">Control Manual</string>
+    <string name="Crisis">Crisis</string>
+    <string name="Datos_Manuales">Datos manuales, no se hace responsable SeizSafe de que funcionen correctamente</string>
+    <string name="Desconectada">DESCONECTADA</string>
+    <string name="Desconectado">DESCONECTADO</string>
+    <string name="Encontrado">Encontrado:</string>
+    <string name="Error_Ip">En caso de no conocer la IP de Seizsafe tendra que entrar en la configuracion del router o hacer clic en Buscar Seizsafe</string>
+    <string name="Error_Json">Did not work!</string>
+    <string name="Error_hora">Error al configurar la hora. Hay un dato erróneo.</string>
+    <string name="Estado_alertas">ALERTAS</string>
+    <string name="Evento">Evento</string>
+    <string name="Eventos_ninguno">No hay eventos almacenados</string>
+    <string name="Falsa_Alarma">Falsa Alarma</string>
+    <string name="Grabar">GRABAR</string>
+    <string name="Guardado_Ok">Todo ha sido guardado correctamete:</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Hora_Fin">Hora Fin</string>
+    <string name="Hora_Inicio">Hora Inicio</string>
+    <string name="IP_Direccion">Dirección IP</string>
+    <string name="IP_Mascara">Máscara de red</string>
+    <string name="IP_Puerta">Puerta de enlace</string>
+    <string name="IP_SeizSafe">IP SEIZSAFE</string>
+    <string name="IP_estatica">Establecer una IP estática</string>
+    <string name="Informacion">Informacion</string>
+    <string name="Ip_DHCP">Obtener una dirección IP automáticamente (DHCP)</string>
+    <string name="Ip_Seizsafe">IP: Seizsafe</string>
+    <string name="Ip_incorrecta">La Ip es incorrecta</string>
+    <string name="Ip_rango">La ip supera el rango de 255</string>
+    <string name="Listadevídeos">LISTA DE VÍDEOS</string>
+    <string name="Mascara_incorrecta">Mascara de red incorrecta</string>
+    <string name="Mascara_rango">La mascara supera el rango de 255</string>
+    <string name="MensajeIPVideos">Si la Ip que se muestra no se corresponde con la de Seizsafe modifique la para que pueda configurar Seizsafe y poder ver los vídeos almacenados.</string>
+    <string name="Modificar_Avanzadas">Modificar Avanzadas</string>
+    <string name="Modificar_IP">Modificar IP</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Norevisado">No Revisado</string>
+    <string name="OFF">OFF</string>
+    <string name="ON">ON</string>
+    <string name="Parar">PARAR</string>
+    <string name="Picos">Tiempo entre picos:</string>
+    <string name="Puerta_incorrecta">La Puerta de enlace es incorrecta</string>
+    <string name="Puerta_rango">La puerta supera el rango de 255</string>
+    <string name="Red">Red</string>
+    <string name="Red_diponible">Redes disponibles:</string>
+    <string name="Reintentar">Reintentar</string>
+    <string name="Revisado">Revisado</string>
+    <string name="SAFE">SAFE</string>
+    <string name="SEIZ">SEIZ</string>
+    <string name="SEIZSAFE">SEIZSAFE</string>
+    <string name="SSID">SSID</string>
+    <string name="SSIDMensaje">El dispositivo creará una red Wi-Fi que deberá configurar en su equipo para poder acceder a esta aplicación. Una vez conectado a la red, la dirección IP del dispositivo será 10.10.0.1</string>
+    <string name="Seleccion">Selección</string>
+    <string name="Servicio_Finalizado">Servicio finalizado</string>
+    <string name="Servicio_Iniciado">Servicio iniciado</string>
+    <string name="Texto_Configurar_Grabacion">Utilizar el modo de inicio y parada automático</string>
+    <string name="UmbralA">Acelerómetro A:</string>
+    <string name="UmbralB">Acelerómetro B:</string>
+    <string name="UmbralBl">Acelerómetro Bluetooth:</string>
+    <string name="UtilizarWifi">Utilizar una red Wi-Fi autogenerada por el propio dispositivo</string>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SeizSafe</string>
+    <string name="ataques">ATAQUES</string>
+    <string name="buscar">Buscar</string>
+    <string name="cargando">Cargando</string>
+    <string name="conectarblu">CONECTAR BLUETOOTH</string>
+    <string name="conectarwifi">CONECTAR WIFI</string>
+    <string name="configurar">CONFIGURAR SEIZSAFE</string>
+    <string name="configurar_conexion">CONFIGURAR CONEXIÓN</string>
+    <string name="correo">info@encore-lab.com</string>
+    <string name="crisis">Tiempo min crisis:</string>
+    <string name="falsa_alarma">Tiempo para falsa alarma:</string>
+    <string name="local_service_conexion">¡¡CONEXION!!</string>
+    <string name="local_service_label">¡¡ALERTA!!</string>
+    <string name="local_service_started">Se esta produciendo un ataque</string>
+    <string name="local_service_started_conexion">Se ha perdido la conexion</string>
+    <string name="mensajeWifi">La busqueda dura aproximadamente dos min.</string>
+    <string name="mensajeWifi_disponible">No hay redes wifi disponibles</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="parar">parar</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="salir">Salir</string>
+    <string name="sensibilidad">Sensibilidad:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_menu">Menú</string>
+    <string name="title_activity_reproductor">Reproductor</string>
+    <string name="vídeoendirecto">VÍDEO EN DIRECTO</string>
+    <string name="wifiConectado">Se ha conectado a la Seizsafe:</string>
+    <!-- From: file:/C:/Users/jonatan.Gonzalez.IEI/Documents/Seizsafe_basico/MyApplication%202/app/src/main/res/values-es/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
